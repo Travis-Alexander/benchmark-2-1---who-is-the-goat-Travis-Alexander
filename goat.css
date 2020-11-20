@@ -1,0 +1,51 @@
+
+    html {
+    font-size: 12px;
+}
+
+body {
+    font-size: 1.8rem;
+    line-height: 1.2;
+    text-align: center;
+    color: #011615;
+    margin: 0 auto;   
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+h4 {
+    font-size: 1.4rem;
+}
+
+html {
+    margin: auto;
+    padding: 0.1px;
+    border-radius: 5px;
+    background: #eeecec;
+    background-position: c;
+
+}
+
+#header {
+    line-height: 1.2;
+    padding: 1.3vw 2em;
+    color: #1a1a1a;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 4px 4px 4px #011615;
+}
+
+#shrink-text {
+    font-size: 14px;
+}
+
+img {
+    max-width: 45%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#timemoji {
+    max-width: 8%;
+}
