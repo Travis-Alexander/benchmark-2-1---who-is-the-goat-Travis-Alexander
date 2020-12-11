@@ -50,3 +50,34 @@ img {
 #timemoji {
     max-width: 8%;
 }
+
+/* small screens */
+@media (max-width: 650px ) {
+
+    html {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    body {
+        flex: 1 1 150px;
+        flex: 0 1 150px;
+        margin: 5px;
+    }
+    }
+
+
+@media (min-width: 651px) and (max-width: 989px) {
+    html {
+        display: grid;
+        place-items: center;
+    }
+}
+
+@media (min-width: 990px) {
+    html {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+    }
+}
